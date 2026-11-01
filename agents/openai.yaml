@@ -1,0 +1,4 @@
+interface:
+  display_name: "市调转挑战杯大挑"
+  short_description: "将市调作品迁移为大挑社科研究，核查资格、证据与章节逻辑并指导自主写作"
+  default_prompt: "请使用 $market-research-to-tiaozhanbei 依据我提供的作品提出修改建议，再询问是否生成修改版，并在修改后审查全文；原始数据可选，暂按2025年大挑规则。默认使用已配置的外部参考案例库，并可选询问我是否补充案例；不以回答为开工条件。"

@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "mode": "完整转换编辑版",
+  "counting_method": null,
+  "target_set_before_edit": null,
+  "source_file_hash": null,
+  "final_file_hash": null,
+  "units": [
+    {
+      "name": "正文总量",
+      "source_range": null,
+      "source_chapters": [],
+      "text_units": {
+        "source": null,
+        "min": null,
+        "max": null,
+        "actual": null,
+        "applicable": true,
+        "reason": null,
+        "enforcement": "review"
+      },
+      "pages": {
+        "source": null,
+        "min": null,
+        "max": null,
+        "actual": null,
+        "applicable": true,
+        "reason": null,
+        "enforcement": "review"
+      },
+      "comparable_layout": null,
+      "analysis_units": [],
+      "source_figures": null,
+      "final_figures": null,
+      "pending_figures": null,
+      "gap_reason": null,
+      "editorial_text_removed": null,
+      "content_retention_status": null,
+      "content_retention_evidence": [],
+      "deviation_decision": null
+    }
+  ],
+  "instructions": "写作前填写正文及各章同口径基线与预期范围，写作后填实测及内容保留证据；未预设如实记录。min/max允许单边；固定页数确不适用时设applicable=false并写reason，未知保持null。review偏差需内容核查，不自动失败；strict仅用于用户明确硬约束。迁出编辑信息不要求等字补回。",
+  "page_policy": "允许轻微差异，内容保留优先；只有用户明确新要求才启用严格等页"
+}
